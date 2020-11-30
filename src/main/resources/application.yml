@@ -1,0 +1,12 @@
+
+spring:
+  datasource:
+    password: sead2301
+    username: root
+    url: jdbc:mysql://10.0.0.1/cache_test?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: false
+server:
+  port: 8083
